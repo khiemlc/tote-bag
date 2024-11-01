@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f3f3f3; /* Màu nền để tránh khoảng trống khi ảnh tải */
+    /* background-color: #f3f3f3; Màu nền để tránh khoảng trống khi ảnh tải */
   }
   
   .slider-item {
