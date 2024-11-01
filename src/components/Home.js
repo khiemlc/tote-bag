@@ -3,8 +3,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import { imageData } from "../asset/data";
-import { imageDataSlider } from "../asset/dataSlider";
-import Banner from "./Banner";
 import ImageSlider from "./ImageSlider";
 
 // const imageData
