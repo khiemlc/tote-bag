@@ -18,7 +18,7 @@ function Home() {
         {imageData.map((image) => (
           <div key={image.id} className="image-item">
             <Link to={`/image/${image.id}`}>
-              <img src={image.imageSrc} alt={`Image ${image.id}`} />
+              <img src={image.imageSrc} alt={`${image.id}`} />
             </Link>
             {/* <p>{image.description}</p> */}
           </div>

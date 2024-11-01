@@ -14,7 +14,7 @@ const ImageSlider = ({ images }) => {
   useEffect(() => {
     const interval = setInterval(nextSlide, 2000); // 3000ms = 3 giây
     return () => clearInterval(interval); // Xóa interval khi component unmount
-  }, [images.length]);
+  });
 
   return (
     <div className="image-slider">
@@ -27,7 +27,7 @@ const ImageSlider = ({ images }) => {
         >
           {index === currentIndex && (
             <Link to={`/image/${image.id}`}>
-              <img src={image.imageSrc} alt={`Slider Image ${image.id}`} />
+              <img src={image.imageSrc} alt={`Slider ${image.id}`} />
               {/* <div className="slider-caption">{image.description}</div> */}
             </Link>
           )}
