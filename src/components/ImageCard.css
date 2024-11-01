@@ -1,0 +1,37 @@
+/* src/components/ImageCard.css */
+.image-card {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9; */
+  }
+  
+  .image {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .description {
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .image-card {
+      max-width: 90%;
+    }
+    
+    .description {
+      font-size: 0.9rem;
+    }
+  }
+  

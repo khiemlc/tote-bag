@@ -1,0 +1,29 @@
+/* src/components/Home.css */
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .image-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .image-item {
+    margin: 20px;
+  }
+  
+  .image-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .image-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
